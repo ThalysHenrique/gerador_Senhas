@@ -15,6 +15,7 @@
     font-size: x-large;
 }
 body {
+    background-image: url(./img/unipe.jpg);
     height: 100vh;
     display: flex;
     align-items: center;
@@ -27,7 +28,7 @@ h1 {
 
 main {
     padding: 40px;
-    box-shadow: 0 1px 15px purple;
+    box-shadow: 0 1px 15px blue;
     flex-direction: column;
     gap: 15px;
 }
@@ -41,8 +42,8 @@ main > div {
 input {
     padding: 5px;
     outline: none;
-    accent-color: blueviolet;
-    border-color: blueviolet;
+    accent-color: yellow;
+    border-color: blue;
 }
 
 input [type=checkbox] {
@@ -55,7 +56,7 @@ input [type=range] {
 }
 
 button {
-    background-color: blueviolet;
+    background-color: blue;
     cursor: pointer;
     color: white;
     border: none;
